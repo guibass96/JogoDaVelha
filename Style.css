@@ -1,0 +1,45 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.content{  
+    padding: 0px;
+    height: 100%;
+    background-color: #00796b;    
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    border-spacing: 0px;
+    margin: 100px;
+}
+
+.table tr,td{
+    text-align: center;
+    width: 200px;
+    border: 1px solid #eeeeee;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.title{
+    margin-right: 17%;
+    position: absolute;
+    color: white;
+}
+
+.placar{
+    margin-left: 100px;
+    margin-top: 100px;
+    position: inherit;
+    color: white;
+}
+
+.placar th,td{
+    border: 1px solid white;
+    border-spacing: 0px;
+}
