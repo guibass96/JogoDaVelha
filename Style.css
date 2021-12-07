@@ -1,45 +1,55 @@
-html, body{
-    height: 100%;
-    width: 100%;
+body,html{
     margin: 0px;
+    height: 100%;
 }
 
-.content{  
-    padding: 0px;
-    height: 100%;
-    background-color: #00796b;    
-    display: flex;
-    justify-content: center;
+.table td{
+    background-color: #ddd;
+    border: 0.1px solid #000;
 }
 
 .table{
-    border-spacing: 0px;
-    margin: 100px;
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 
-.table tr,td{
+td{
+    height: 150px;
     text-align: center;
-    width: 200px;
-    border: 1px solid #eeeeee;
-    font-size: 80px;
-    font-weight: bold;
-    color: white;
 }
 
 .title{
-    margin-right: 17%;
     position: absolute;
-    color: white;
 }
 
-.placar{
-    margin-left: 100px;
-    margin-top: 100px;
-    position: inherit;
-    color: white;
+.content{
+    display: flex;
+    justify-content: center;
+    background-color: #e8e8e8;
+    height: 100%;
 }
 
-.placar th,td{
-    border: 1px solid white;
-    border-spacing: 0px;
+.p1{
+    font-size: 30px;
+    margin-right: 60%;
+    margin-top: 10%;
+    border: 1px solid #000;
+    height: 150px;
+    width: 10%;
+    text-align: center;
 }
+
+.p2{
+    font-size: 30px;
+    margin-top: 10%;
+    border: 1px solid #000;
+    height: 150px;
+    width: 10%;
+    text-align: center;
+
+}
+
